@@ -13,11 +13,11 @@ Control **4 servo motors** to perform a sweeping motion (0° → 180° → 0°) 
 - Servo motors connected to digital pins **9, 10, 11, 12**
 - Arduino UNO or compatible board
 
-### Arduino Code:
+### Project Files
 
-The code for Task 1 can be found in the file [`Servo motor code.ino`](./Servo motor code.ino).
-
-It controls 4 servo motors to sweep for 2 seconds, then fix them at 90 degrees.
+- [`Servo_motor_code.ino`](./Servo_motor_code.ino): Arduino code for controlling 4 servo motors.
+- [`4ServoTask2.png`](./4ServoTask2.png): Servo motor wiring and connection diagram with code beside.
+- [`ServoProject.brd`](./ServoProject.brd): Board design file (BRD) showing PCB layout or detailed circuit in Fritzing/Eagle.
 
 ### Code Summary:
 - Uses `millis()` for time-based control (2 seconds only)
